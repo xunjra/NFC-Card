@@ -51,8 +51,7 @@ I'm new to hardware, so I took reference from existing open-source designs and l
 | R1 | 0603WAF470JT5E | Resistor, 47 ohm, 0603 | C23182 | [LCSC](https://www.lcsc.com/product-detail/C23182.html) | Basic | 1 | $0.0018 |
 | LED1 | KT-0805Y | LED, yellow, 0805 | C2296 | [LCSC](https://www.lcsc.com/product-detail/C2296.html) | Basic | 1 | $0.0149 |
 | ANT1 | 25X48MM_NFC | NFC antenna (PCB trace footprint, user-contributed library) | - | - | - | 1 | $0.00 |
- 
-\*Unit cost is the extended price for 5 boards divided by 5. The antenna is a copper trace on the board itself, so it has no purchase cost. The full BOM with pricing is in [`BOM.csv`](BOM.csv).
+
  
 ---
 
