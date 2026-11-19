@@ -1,4 +1,4 @@
-# NFC Business Card
+# NFC Card
 
 A credit-card-sized PCB that works as a business card: tap it against a phone and it shares your contact details over NFC. The silkscreen carries my name, social links and custom artwork, so the board looks good even without a phone nearby.
 
@@ -101,6 +101,28 @@ This README doubles as my build journal.
 ---
 
 
+ 
+## Artwork Credits and Takedown Notice
+ 
+The silkscreen artwork on this board (the black-and-white designs and stickers) was collected from **Pinterest** while I was exploring ideas. Pinterest pins often don't link back to the original creator, and unfortunately **I did not keep track of where each image came from**, so I can't credit the original artists by name. I'm sorry about that.
+ 
+I'm sharing this project for learning and non-commercial purposes only. It is a personal business card, and no one is being sold anything.
+ 
+**If you are the creator of any artwork used on this board:**
+ 
+- **Want credit?** Open an issue in this repository or email me at **hello@xunjra.com** with a link to your original work, and I'll add your name and link here right away.
+- **Want it removed?** Contact me the same way and I'll take the artwork out of this repository, the screenshots and the README, and I won't use it on future board revisions.
+- **Want to be left as is?** No action needed, but you are always welcome to reach out.
+| Artwork | Where it's used | Original creator | Status |
+|---|---|---|---|
+| Silkscreen artwork (front) | PCB top silkscreen | Unknown (found on Pinterest) | Open to credit or removal on request |
+ 
+*(Add or edit rows as creators get in touch.)*
+ 
+Thank you to all the artists whose work inspired the look of this board.
+ 
+---
+
 ## Acknowledgements
 
 - [Jams.Hack Club](https://jams.hackclub.com/) for the project inspiration and references
@@ -113,7 +135,7 @@ This README doubles as my build journal.
 
 ## Contact
 
-- Name: **[Arjun Khanal]**
-- Website / Portfolio: [https://me.xunjra.com]
-- GitHub: [https://github.com/xunjra]
-- Email: [hello@xunjra.com]
+- Name: **Arjun Khanal**
+- Website / Portfolio: https://me.xunjra.com
+- GitHub: https://github.com/xunjra
+- Email: hello@xunjra.com
