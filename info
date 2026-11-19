@@ -4,7 +4,7 @@
   "name": "NFC Card",
   "content": "",
   "created_at": "2026-11-19 14:03:31",
-  "updated_at": "2026-11-19 14:03:33",
+  "updated_at": "2026-11-19 16:51:57",
   "stick": "",
   "documents": [
     {
@@ -14,7 +14,13 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "components": {},
+      "components": {
+        "83750b9ec8e049408701bb76a50ed8f9": 1,
+        "c8c2c558fac9410d08cd9c984c6e32bd": 1,
+        "eb859b95857eb549dcd060c0a776a8f7": 1,
+        "eb434b2d0361cebc504a90772dbca13c": 1,
+        "264b933be9cf4547bdf59cf4abb77e02": 1
+      },
       "BOM": [
         [
           "Value",
@@ -22,18 +28,169 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "Antenna",
+          1,
+          "25X48MM_NFC",
+          "1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Manufacturer Part": "CL10B224KA8NNNC",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C21120"
+          }
+        ],
+        [
+          "17-21SUYC/TR8",
+          1,
+          "LED0805-R-RD",
+          "LED1",
+          {
+            "Manufacturer Part": "KT-0805黄灯",
+            "Manufacturer": "KENTO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2296"
+          }
+        ],
+        [
+          "47Ω",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "0603WAF470JT5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C23182"
+          }
+        ],
+        [
+          "NT3H2111W0FHKH",
+          1,
+          "XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH",
+          "U1",
+          {
+            "Manufacturer Part": "NT3H2111W0FHKH",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C710403"
+          }
         ]
       ],
-      "updateTime": 1795076313,
+      "updateTime": 1795077302,
       "createTime": 1795076311,
       "histories": [],
       "created_at": "2026-11-19 14:03:31",
-      "updated_at": "2026-11-19 14:03:33"
+      "updated_at": "2026-11-19 14:20:02"
+    },
+    {
+      "uuid": "5652272a8db880ad3fa5e32295c82489",
+      "puuid": "ee9861abd59ed2a79e22d2167fc37e5e",
+      "title": "PCB_NFC Card",
+      "filename": "PCB_NFC Card.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "82605a93a0be4c79a27d82f67f2aca29": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "9cb3c3dc03b740d6bb3de64bd413a824": 1,
+        "b4e02a319c3f4f84b5d7f730b00ba9f0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Antenna",
+          1,
+          "25X48MM_NFC",
+          "1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Manufacturer Part": "CL10B224KA8NNNC",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C21120"
+          }
+        ],
+        [
+          "17-21SUYC/TR8",
+          1,
+          "LED0805-R-RD",
+          "LED1",
+          {
+            "Manufacturer Part": "KT-0805黄灯",
+            "Manufacturer": "KENTO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2296"
+          }
+        ],
+        [
+          "47Ω",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "0603WAF470JT5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C23182"
+          }
+        ],
+        [
+          "NT3H2111W0FHKH",
+          1,
+          "XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH",
+          "U1",
+          {
+            "Manufacturer Part": "NT3H2111W0FHKH",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C710403"
+          }
+        ]
+      ],
+      "updateTime": 1795086417,
+      "createTime": 1795077513,
+      "histories": [],
+      "created_at": "2026-11-19 14:23:33",
+      "updated_at": "2026-11-19 16:51:57"
     }
   ],
   "sort": [],
   "title": "NFC Card",
   "foldername": "NFC Card",
   "schfilename": "NFC Card.json",
-  "schfilemtime": 1795076313657
+  "schfilemtime": 1795077302628
 }
