@@ -1,0 +1,39 @@
+{
+  "uuid": "ee9861abd59ed2a79e22d2167fc37e5e",
+  "path": "Offline/NFC%20Card",
+  "name": "NFC Card",
+  "content": "",
+  "created_at": "2026-11-19 14:03:31",
+  "updated_at": "2026-11-19 14:03:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "626d2b16d5c7f243bea6a13659202f40",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1795076313,
+      "createTime": 1795076311,
+      "histories": [],
+      "created_at": "2026-11-19 14:03:31",
+      "updated_at": "2026-11-19 14:03:33"
+    }
+  ],
+  "sort": [],
+  "title": "NFC Card",
+  "foldername": "NFC Card",
+  "schfilename": "NFC Card.json",
+  "schfilemtime": 1795076313657
+}
