@@ -117,7 +117,6 @@ I'm sharing this project for learning and non-commercial purposes only. It is a 
 |---|---|---|---|
 | Silkscreen artwork (front) | PCB top silkscreen | Unknown (found on Pinterest) | Open to credit or removal on request |
  
-*(Add or edit rows as creators get in touch.)*
  
 Thank you to all the artists whose work inspired the look of this board.
  
