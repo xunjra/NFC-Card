@@ -1,0 +1,119 @@
+# NFC Business Card
+
+A credit-card-sized PCB that works as a business card: tap it against a phone and it shares your contact details over NFC. The silkscreen carries my name, social links and custom artwork, so the board looks good even without a phone nearby.
+
+This is **my first ever hardware project**, designed from scratch in EasyEDA.
+
+---
+
+## Project Description
+
+The goal was simple: replace a paper business card with something people will actually remember. The board is roughly the size of a credit card and is built around an NFC tag IC (**NT3H2111W0FHKH**) connected to a **printed PCB-trace NFC antenna** (25 x 48 mm). A phone tapped on the card can read the data stored on the tag, such as a link to my portfolio or contact details.
+
+I'm new to hardware, so I took reference from existing open-source designs and learning resources rather than starting from nothing:
+
+- [Jams.Hack Club](https://jams.hackclub.com/)
+- OSHWD Labs
+- Existing GitHub repositories for NFC tag boards
+
+---
+
+## Features
+
+- **NFC tag IC** (NT3H2111W0FHKH) for tap-to-share data
+- **PCB-trace NFC antenna** (25 x 48 mm), so there is no extra antenna part to buy or solder
+- **Credit-card form factor**, easy to carry in a wallet
+- **Indicator LED** (yellow, 0805)
+- **Custom silkscreen**: name, social links and contact info in custom Google Fonts, plus black-and-white artwork
+- **Tiny BOM**: only 4 assembled components, 3 of them JLCPCB "Basic" parts, so assembly stays cheap
+- **Fully manufacturable at JLCPCB**: PCB and economic PCBA ordered together, about $5.40 per board all-in for a run of 5 (see [Cost Breakdown](#cost-breakdown))
+- **Designed in EasyEDA Standard**, with schematic, PCB and Gerbers included
+
+---
+
+## Screenshots
+
+### Schematic
+<img width="1169" height="827" alt="Schematic_NFC-Card_2026-11-19" src="https://github.com/user-attachments/assets/556a9866-2a05-4b5d-9320-cb85b0900521" />
+
+
+### PCB Layout
+<img width="888" height="671" alt="image" src="https://github.com/user-attachments/assets/7090437b-b209-47b0-916a-47179c5b4829" />
+
+
+### 3D View - Front
+<img width="1232" height="788" alt="image" src="https://github.com/user-attachments/assets/3db72f86-8b0e-4fed-a235-067421b13fdc" />
+
+
+### 3D View - Back
+
+<img width="1293" height="824" alt="image" src="https://github.com/user-attachments/assets/a7b302bd-0f5c-4f4f-8e11-9ac6f385abee" />
+
+---
+
+## Bill of Materials
+
+| Designator | Part Number | Description | LCSC # | Type | Qty / Board | Unit Cost (USD)* |
+|---|---|---|---|---|---|---|
+| U1 | NT3H2111W0FHKH | NFC Forum Type 2 tag IC | C710403 | Extended | 1 | $0.5583 |
+| C1 | CL10B224KA8NNNC | Capacitor, 220 nF | C21120 | Basic | 1 | $0.0089 |
+| R1 | 0603WAF470JT5E | Resistor, 47 ohm, 0603 | C23182 | Basic | 1 | $0.0018 |
+| LED1 | KT-0805Y | LED, yellow, 0805 | C2296 | Basic | 1 | $0.0149 |
+| ANT1 | 25X48MM_NFC | NFC antenna (PCB trace footprint, user-contributed library) | - | - | 1 | $0.00 |
+
+\*Unit cost is the extended price for 5 boards divided by 5. The antenna is a copper trace on the board itself, so it has no purchase cost. The full BOM with pricing is in [`BOM.csv`](BOM.csv).
+
+---
+
+## Cost Breakdown
+
+Order of **5 boards**, JLCPCB:
+
+| Item | Cost (USD) |
+|---|---|
+| PCB prototype (24 hours) | $4.00 |
+| Components (4 parts) | $2.92 |
+| Assembly fees (setup, stencil, assembly, extended-part fee)** | $13.91 |
+| **Merchandise total** | **$20.83** |
+| Shipping (estimated) | $16.16 |
+| Coupon | -$10.00 |
+| **Order total** | **$26.99** |
+
+**Cost per board: about $5.40 including shipping, or about $4.17 before shipping and the coupon.**
+
+\*\*Derived: the $16.83 PCBA price minus the $2.92 of components. JLCPCB does not itemize it in the order summary.
+
+---
+
+## Design Journey
+
+This README doubles as my build journal.
+
+1. **Research.** I started the schematic by collecting references from Jams.Hack Club, OSHWD Labs, GitHub repos and other sources. This step went quickly.
+2. **Tooling detour (EasyEDA Pro).** I began in EasyEDA Pro, but in half-offline mode it did not show public footprints. I spent around 1.5 hours working out why. 
+3. **Switching to EasyEDA Standard.** I restarted the project in the Standard edition, since the NFC antenna footprint I needed only existed in user-contributed libraries.
+4. **Schematic.** Once the right footprints were available, the schematic did not take long.
+5. **PCB layout.** I set the board outline to roughly the size of a credit card, then tried many component placement variations to make the layout look clean. This took up most of my time.
+6. **Silkscreen and branding.** I added my name, social links and contact info using custom Google Fonts. Then I searched Pinterest for artwork and tested multiple stickers, black-and-white designs and other variations before settling on the final look.
+7. **Ordering.** I exported the Gerbers and ordered 5 boards with economic PCBA from JLCPCB.
+8. **Wrap-up.** I closed the time lapse and wrote this journal.
+
+---
+
+
+## Acknowledgements
+
+- [Jams.Hack Club](https://jams.hackclub.com/) for the project inspiration and references
+- OSHWD Labs and the open-source GitHub projects I learned from
+- The EasyEDA community for the user-contributed NFC antenna footprint
+- Pintrest creators for Arts and Design
+
+---
+
+
+## Contact
+
+- Name: **[Arjun Khanal]**
+- Website / Portfolio: [https://me.xunjra.com]
+- GitHub: [https://github.com/xunjra]
+- Email: [hello@xunjra.com]
