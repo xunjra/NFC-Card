@@ -6,4 +6,5 @@ Line,Designator,Part Number / Description,LCSC #,LCSC Link,Qty,Unit Cost (USD),E
 5,LED1,KT-0805Y - LED 0805 Yellow,C2296,https://www.lcsc.com/product-detail/C2296.html,2,0.0149,0.0298
 6,-,"Assembly fees (setup, stencil, assembly, extended-part fee)",-,,2,6.8961,13.7922
 7,-,Shipping (estimated),-,,1,15.94,15.94
+8,-,Coupon,-,,1,-10.00,-10.00
 ,,TOTAL,,,,,24.90
