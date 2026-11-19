@@ -52,17 +52,17 @@ I'm new to hardware, so I took reference from existing open-source designs and l
 ---
 
 ## Bill of Materials
-
-| Designator | Part Number | Description | LCSC # | Type | Qty / Board | Unit Cost (USD)* |
-|---|---|---|---|---|---|---|
-| U1 | NT3H2111W0FHKH | NFC Forum Type 2 tag IC | C710403 | Extended | 1 | $0.5583 |
-| C1 | CL10B224KA8NNNC | Capacitor, 220 nF | C21120 | Basic | 1 | $0.0089 |
-| R1 | 0603WAF470JT5E | Resistor, 47 ohm, 0603 | C23182 | Basic | 1 | $0.0018 |
-| LED1 | KT-0805Y | LED, yellow, 0805 | C2296 | Basic | 1 | $0.0149 |
-| ANT1 | 25X48MM_NFC | NFC antenna (PCB trace footprint, user-contributed library) | - | - | 1 | $0.00 |
-
+ 
+| Designator | Part Number | Description | LCSC # | Link | Type | Qty / Board | Unit Cost (USD)* |
+|---|---|---|---|---|---|---|---|
+| U1 | NT3H2111W0FHKH | NFC Forum Type 2 tag IC | C710403 | [LCSC](https://www.lcsc.com/product-detail/C710403.html) / [JLCPCB](https://jlcpcb.com/partdetail/NxpSemicon-NT3H2111W0FHKH/C710403) | Extended | 1 | $0.5583 |
+| C1 | CL10B224KA8NNNC | Capacitor, 220 nF | C21120 | [LCSC](https://www.lcsc.com/product-detail/C21120.html) | Basic | 1 | $0.0089 |
+| R1 | 0603WAF470JT5E | Resistor, 47 ohm, 0603 | C23182 | [LCSC](https://www.lcsc.com/product-detail/C23182.html) | Basic | 1 | $0.0018 |
+| LED1 | KT-0805Y | LED, yellow, 0805 | C2296 | [LCSC](https://www.lcsc.com/product-detail/C2296.html) | Basic | 1 | $0.0149 |
+| ANT1 | 25X48MM_NFC | NFC antenna (PCB trace footprint, user-contributed library) | - | - | - | 1 | $0.00 |
+ 
 \*Unit cost is the extended price for 5 boards divided by 5. The antenna is a copper trace on the board itself, so it has no purchase cost. The full BOM with pricing is in [`BOM.csv`](BOM.csv).
-
+ 
 ---
 
 ## Cost Breakdown
