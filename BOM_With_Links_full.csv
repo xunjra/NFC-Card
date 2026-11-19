@@ -1,0 +1,17 @@
+Line,Category,Designator,Part Number / Description,LCSC #,LCSC Link,Part Type,Source,Qty per Board,Order Qty (boards),Unit Cost (USD),Ext Cost (USD),Notes
+1,PCB,-,"Gerber_NFC-Card_PCB_NFC-Card_2026-11-19_Y3 - PCB prototype (Y3-14171168A), 24 hours",-,,-,JLCPCB,1,5,0.8000,4.00,Bare board fabrication
+2,Component,U1,NT3H2111W0FHKH - NFC Forum Type 2 Tag IC,C710403,https://www.lcsc.com/product-detail/C710403.html,Extended,JLCPCB,1,5,0.5583,2.7915,Selected by System
+3,Component,C1,CL10B224KA8NNNC - Capacitor 220nF,C21120,https://www.lcsc.com/product-detail/C21120.html,Basic,JLCPCB,1,5,0.0089,0.0445,Selected by System
+4,Component,R1,0603WAF470JT5E - Resistor 47 ohm 0603,C23182,https://www.lcsc.com/product-detail/C23182.html,Basic,JLCPCB,1,5,0.0018,0.0090,Selected by System
+5,Component,LED1,KT-0805Y - LED 0805 Yellow,C2296,https://www.lcsc.com/product-detail/C2296.html,Basic,JLCPCB,1,5,0.0149,0.0745,Selected by System
+6,Component (not sourced),1,Antenna - 25X48MM_NFC,-,,-,On-board,1,5,0.0000,0.0000,"Unselected part; PCB-trace NFC antenna, no purchase cost"
+7,Assembly,-,"Economic PCBA assembly fees (setup, stencil, assembly, extended-part fee) - SMT026111962578-14171168A, 1-2 days",-,,-,JLCPCB,1,5,2.7821,13.9105,Derived: PCBA order total $16.83 minus component cost
+
+,SUBTOTALS,,,,,,,,,,,
+,PCB total,,,,,,,,,,4.00,
+,PCBA total (parts + assembly),,,,,,,,,,16.83,Components $2.9195 + assembly $13.9105
+,Merchandise total,,,,,,,,,,20.83,
+,Shipping (estimated),,,,,,,,,,16.16,
+,Coupon,,,,,,,,,,-10.00,
+,Tax,,,,,,,,,,14.17,Derived: checkout total $41.16 minus $26.99 subtotal
+,ORDER TOTAL,,,,,,,,,,41.16,Merchandise + shipping - coupon + tax
