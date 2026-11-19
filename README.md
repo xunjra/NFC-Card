@@ -113,11 +113,7 @@ I'm sharing this project for learning and non-commercial purposes only. It is a 
 - **Want credit?** Open an issue in this repository or email me at **hello@xunjra.com** with a link to your original work, and I'll add your name and link here right away.
 - **Want it removed?** Contact me the same way and I'll take the artwork out of this repository, the screenshots and the README, and I won't use it on future board revisions.
 - **Want to be left as is?** No action needed, but you are always welcome to reach out.
-| Artwork | Where it's used | Original creator | Status |
-|---|---|---|---|
-| Silkscreen artwork (front) | PCB top silkscreen | Unknown (found on Pinterest) | Open to credit or removal on request |
- 
- 
+
 Thank you to all the artists whose work inspired the look of this board.
  
 ---
