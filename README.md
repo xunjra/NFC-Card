@@ -104,7 +104,7 @@ This README doubles as my build journal.
  
 ## Artwork Credits and Takedown Notice
  
-The silkscreen artwork on this board (the black-and-white designs and stickers) was collected from **Pinterest** while I was exploring ideas. Pinterest pins often don't link back to the original creator, and unfortunately **I did not keep track of where each image came from**, so I can't credit the original artists by name. I'm sorry about that.
+The silkscreen artwork on this board  was collected from **Pinterest** while I was exploring ideas. Pinterest pins often don't link back to the original creator, and unfortunately **I did not keep track of where each image came from**, so I can't credit the original artists by name. I'm sorry about that.
  
 I'm sharing this project for learning and non-commercial purposes only. It is a personal business card, and no one is being sold anything.
  
