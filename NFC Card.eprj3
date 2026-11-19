@@ -1,0 +1,72 @@
+{
+  "name": "NFC Card",
+  "owner_uuid": "4f69f0de9c4d441c898da15800e04d45",
+  "creator_uuid": "4f69f0de9c4d441c898da15800e04d45",
+  "created_at": "2026-11-19 19:45:44",
+  "updated_at": "2026-11-19 19:45:44",
+  "modifier_uuid": "4f69f0de9c4d441c898da15800e04d45",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  },
+  "profile": {
+    "boards": {
+      "3e4e5d87c113e90e": {
+        "uuid": "3e4e5d87c113e90e",
+        "title": "NFC Card",
+        "zIndex": -1
+      }
+    },
+    "schematics": {
+      "240b9c508235f5e1": {
+        "uuid": "240b9c508235f5e1",
+        "name": "NFC Card",
+        "board": "3e4e5d87c113e90e",
+        "source": "",
+        "version": "1795096835755",
+        "updateTime": 1795096835755
+      }
+    },
+    "sheets": {
+      "30968987fbc1647d": {
+        "uuid": "30968987fbc1647d",
+        "title": "Sheet_1",
+        "schematic_uuid": "240b9c508235f5e1",
+        "zIndex": 1,
+        "source": "",
+        "version": "1795096835755",
+        "updateTime": 1795096835755
+      }
+    },
+    "pcbs": {
+      "52caa9452ee66dee": {
+        "uuid": "52caa9452ee66dee",
+        "title": "PCB_NFC Card",
+        "board": "3e4e5d87c113e90e",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1795096835755",
+        "updateTime": 1795096835755
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "4f69f0de9c4d441c898da15800e04d45"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  }
+}
