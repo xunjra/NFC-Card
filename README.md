@@ -1,14 +1,8 @@
 # NFC Card
 
-A credit-card-sized PCB that works as a business card: tap it against a phone and it shares your contact details over NFC. The silkscreen carries my name, social links and custom artwork, so the board looks good even without a phone nearby.
+A credit card sized pcb card that has NFC built in. The card can be used as a tap to pay card and can be written commands into it like an NFC tag.
 
 This is **my first ever hardware project**, designed from scratch in EasyEDA.
-
----
-
-## Project Description
-
-The goal was simple: replace a paper business card with something people will actually remember. The board is roughly the size of a credit card and is built around an NFC tag IC (**NT3H2111W0FHKH**) connected to a **printed PCB-trace NFC antenna** (25 x 48 mm). A phone tapped on the card can read the data stored on the tag, such as a link to my portfolio or contact details.
 
 I'm new to hardware, so I took reference from existing open-source designs and learning resources rather than starting from nothing:
 
@@ -24,9 +18,6 @@ I'm new to hardware, so I took reference from existing open-source designs and l
 - **PCB-trace NFC antenna** (25 x 48 mm), so there is no extra antenna part to buy or solder
 - **Credit-card form factor**, easy to carry in a wallet
 - **Indicator LED** (yellow, 0805)
-- **Custom silkscreen**: name, social links and contact info in custom Google Fonts, plus black-and-white artwork
-- **Tiny BOM**: only 4 assembled components, 3 of them JLCPCB "Basic" parts, so assembly stays cheap
-- **Fully manufacturable at JLCPCB**: PCB and economic PCBA ordered together, about $5.40 per board all-in for a run of 5 (see [Cost Breakdown](#cost-breakdown))
 - **Designed in EasyEDA Standard**, with schematic, PCB and Gerbers included
 
 ---
@@ -64,42 +55,6 @@ I'm new to hardware, so I took reference from existing open-source designs and l
 \*Unit cost is the extended price for 5 boards divided by 5. The antenna is a copper trace on the board itself, so it has no purchase cost. The full BOM with pricing is in [`BOM.csv`](BOM.csv).
  
 ---
-
-## Cost Breakdown
-
-Order of **5 boards**, JLCPCB:
-
-| Item | Cost (USD) |
-|---|---|
-| PCB prototype (24 hours) | $4.00 |
-| Components (4 parts) | $2.92 |
-| Assembly fees (setup, stencil, assembly, extended-part fee)** | $13.91 |
-| **Merchandise total** | **$20.83** |
-| Shipping (estimated) | $16.16 |
-| Coupon | -$10.00 |
-| **Order total** | **$26.99** |
-
-**Cost per board: about $5.40 including shipping, or about $4.17 before shipping and the coupon.**
-
-\*\*Derived: the $16.83 PCBA price minus the $2.92 of components. JLCPCB does not itemize it in the order summary.
-
----
-
-## Design Journey
-
-This README doubles as my build journal.
-
-1. **Research.** I started the schematic by collecting references from Jams.Hack Club, OSHWD Labs, GitHub repos and other sources. This step went quickly.
-2. **Tooling detour (EasyEDA Pro).** I began in EasyEDA Pro, but in half-offline mode it did not show public footprints. I spent around 1.5 hours working out why. 
-3. **Switching to EasyEDA Standard.** I restarted the project in the Standard edition, since the NFC antenna footprint I needed only existed in user-contributed libraries.
-4. **Schematic.** Once the right footprints were available, the schematic did not take long.
-5. **PCB layout.** I set the board outline to roughly the size of a credit card, then tried many component placement variations to make the layout look clean. This took up most of my time.
-6. **Silkscreen and branding.** I added my name, social links and contact info using custom Google Fonts. Then I searched Pinterest for artwork and tested multiple stickers, black-and-white designs and other variations before settling on the final look.
-7. **Ordering.** I exported the Gerbers and ordered 5 boards with economic PCBA from JLCPCB.
-8. **Wrap-up.** I closed the time lapse and wrote this journal.
-
----
-
 
  
 ## Artwork Credits and Takedown Notice
